@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-dotenv
+pydantic
+sqlalchemy
+psycopg2-binary
+httpx
+authlib
+itsdangerous
+python-multipart
+alibabacloud_dysmsapi20170525==2.0.24
+alibabacloud_tea_openapi==0.3.8
+gunicorn
