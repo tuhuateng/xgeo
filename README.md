@@ -31,3 +31,4 @@ python main.py
 ## 部署
 
 本项目配置为使用 Render 进行部署。请参考 `DEPLOY_CN.md` 获取详细部署指南。
+# xgeo
