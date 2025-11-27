@@ -23,7 +23,7 @@ services:
         sync: false
 
   # Frontend Service (React/Vite)
-  - type: site
+  - type: static
     name: xgeo-frontend
     buildCommand: npm install && npm run build
     publishDir: dist
