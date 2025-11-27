@@ -23,11 +23,11 @@ services:
         sync: false
 
   # Frontend Service (React/Vite)
-  # NOTE: type must be 'static' for Static Sites
-  - type: static
+  - type: web
     name: xgeo-frontend
+    runtime: static
     buildCommand: npm install && npm run build
-    publishDir: dist
+    staticPublishPath: dist
     plan: free
     routes:
       # Proxy API requests to the backend
